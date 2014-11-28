@@ -1,0 +1,16 @@
+{
+  "name": "fullfact",
+  "title": "Full Fact",
+  "id": "jid1-BrKhfPGs4EiEDQ",
+  "description": "Full fact plugin",
+  "author": "Will Beaufoy",
+  "license": "MPL 2.0",
+  "version": "0.2",
+  "preferences": [{
+    "name": "autorun",
+    "title": "Autorun",
+    "description": "Run automatically on every page load",
+    "type": "bool",
+    "value": false
+  }]
+}
