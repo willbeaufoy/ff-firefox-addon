@@ -5,12 +5,30 @@
   "description": "Full fact plugin",
   "author": "Will Beaufoy",
   "license": "MPL 2.0",
-  "version": "0.2",
-  "preferences": [{
+  "version": "0.1",
+  "icon": "data/icon-64.png",
+  "icon64": "data/icon-64.png",
+  "preferences": [
+  {
+    "name": "active",
+    "title": "Active",
+    "description": "Turn on addon",
+    "type": "bool",
+    "value": true
+  },
+  {
     "name": "autorun",
     "title": "Autorun",
     "description": "Run automatically on every page load",
     "type": "bool",
     "value": false
-  }]
+  },
+  {
+    "name": "ffuser",
+    "title": "Full Fact user",
+    "description": "Full Fact user to submit claims as (if blank, or user doesn't exist in Full Fact, claims will be submitted as 'Anonymous'",
+    "type": "string",
+    "value": ""
+  }
+  ]
 }

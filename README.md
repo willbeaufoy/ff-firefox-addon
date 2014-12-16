@@ -1,14 +1,15 @@
-Adds event listener for highlighting text on a page, bringing up popup with option to send selection to Full Fact
-==================================================================================================================
+Full Fact for firefox
+========================
 
-Selection is then recieved by the Full Fact claims database, which will submit it as a new claim to be checked
+Firefox plugin for interacting with Full Fact
 
-Features
-=========
+Send claim to Full Fact
+=======================
 
-[todo] Sends HTML to Fullfact, which searches visible text for matching Q&A question titles. Returns matches to browser which highlights the claims in the text with an onhover popup.
+- When plugin is active, highlight any text in page and a popup will appear, where you can send the highlighted text + additional metadata to Full Fact.
+- Claim will be submitted as Anonymous by default, or as your Full Fact username if you put this in the plugin settings
 
-[todo] On highlight search FF to see if claim has already been checked (like SO duplicate question submission searching), and return list of found answers.
+Highlight existing claims in page
+=================================
 
-[todo] Also look for partial matches, and highlight these in a different colour. On hover show links to partial matches.
-
+- Click the Full Fact button and any claims that have already been submitted to the Full Fact database will be highlighted withint the page, with an info popup if you hover over it.
